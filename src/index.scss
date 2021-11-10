@@ -1,0 +1,81 @@
+/*-------------FONTS------------*/
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('./fonts/SpaceMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/SpaceMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/SpaceMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/SpaceMono-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/SpaceMono-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/SpaceMono-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 400;
+  }
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('./fonts/SpaceMono-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/SpaceMono-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/SpaceMono-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/SpaceMono-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/SpaceMono-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/SpaceMono-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  }
+
+/*============ Specifications ==============*/
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'SpaceMono', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0em;
+	color: hsl(183, 100%, 15%);
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+input, input:hover, input:active, input:focus, 
+button, button:hover, button:active, button:focus {
+	outline: none;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+a, button {
+    transition: all 0.5s ease;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
+._container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+

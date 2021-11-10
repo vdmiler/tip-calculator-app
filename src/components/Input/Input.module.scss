@@ -1,0 +1,21 @@
+.input {
+   width: 100%;
+   text-align: right;
+   padding: 8px 18px 8px 45px;
+   border: 2px solid hsl(172, 67%, 45%);
+   border-radius: 5px;
+   background-color: hsl(189, 41%, 97%);
+   font-family: 'SpaceMono', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   color: hsl(183, 100%, 15%);
+   transition: all .5s ease;
+   &._custom {
+      max-width: 117px;
+      padding: 6px !important;
+      text-align: center;
+   }
+   &._error {
+      border-color: #df6e50;
+   }
+}

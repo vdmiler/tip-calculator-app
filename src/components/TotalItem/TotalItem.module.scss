@@ -1,0 +1,29 @@
+.wrapp.amount {
+   margin-bottom: 55px;
+   @media (max-width: 375px) {
+     margin-bottom: 30px;
+   }
+ }
+ .wrapp {
+   display: flex;
+   justify-content: space-between;
+   .headlines {
+     .line:nth-child(1) {
+       font-size: 14px;
+       @media (max-width: 375px) {
+         font-size: 12px;
+       }
+     }
+     .line:nth-child(2) {
+       font-size: 10px;
+       color: hsl(172, 67%, 45%);
+       @media (max-width: 375px) {
+         font-size: 8px;
+       }
+     }
+   }
+   .numbers {
+     color: hsl(172, 67%, 45%);
+     
+   }
+ }
