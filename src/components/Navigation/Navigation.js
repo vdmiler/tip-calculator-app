@@ -8,7 +8,6 @@ import { setActiveId, setBill, setCustomPercent, setPeopleCount, setStaticPercen
 import Button from '../UI/Button/Button';
 
 const Navigation = (props) => {
-   console.log(props)
    return (
       <div className={styles.navigation}>
          <div className={styles.item + ' ' + styles._bill}>
