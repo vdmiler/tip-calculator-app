@@ -8,3 +8,5 @@ You can run this project locally just do:
 * `cd tip-calculator-app`
 * `npm install`
 * `npm start`
+
+[Demo](https://vdmiler.github.io/tip-calculator-page/)
